@@ -325,9 +325,9 @@
                     var typed = new Typed("#subtitle", {
                         strings: [ 
                             
-                                "从来没有真正的绝境, 只有心灵的迷途",
+                                "专注当下，积极行动，勇于探索，增强底气。",
                             
-                                "Never really desperate, only the lost of the soul",
+                                "Focus on the moment, take positive action, explore and strengthen your bottom line.",
                             
                         ],
                         startDelay: 300,
@@ -493,6 +493,7 @@
                                     Doping考虑先把“有  个连续段”转化为“有  个位置 ，”。
 于是考虑二项式反演，强制钦定有多少个位置满足条件。
 通过依托优化可以做到 。
+code
 
                                 
                             </div>
@@ -757,6 +758,15 @@ $(function () {
     
     
     
+        
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
+            }
+        </script>
+    
 
     <!-- 雪花特效 -->
     
@@ -788,6 +798,8 @@ $(function () {
     })();
 </script>
 
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
